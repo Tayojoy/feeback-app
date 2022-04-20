@@ -13,7 +13,7 @@ function App() {
         <>
         <Header />
         <div className="container">
-            <FeedbackList feedback={FeedbackData} handleDelete={deleteFeedback} />
+            <FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
         </div>
         </>
     )
